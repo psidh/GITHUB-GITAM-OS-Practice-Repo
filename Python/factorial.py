@@ -1,12 +1,14 @@
 # easy-level
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
     else:
         return n * factorial(n - 1)
 
-# Example usage
-num = 5
+num = int(input("Enter a number: "))
+
 print(f"Factorial of {num} is {factorial(num)}")
 
-# trying giving user input 
+
+# trying solving it iteratively 
