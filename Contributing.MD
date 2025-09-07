@@ -21,26 +21,24 @@ It can be:
 
 ## Before you start
 
-1. **Fork the repo** → This makes a personal copy of the project in your GitHub account.
-   *(Think of it like making your own notebook where you can write without changing the original one.)*
+1.  **Fall in love with the project:** See how it can help you in your daily life.
+2.  **Find an issue:** While using the project, did you notice something that could be done better? That's an issue!
+3.  **Check the issue tracker:** If you're looking for a place to start, check out the existing issues.
+4.  **Fork the repo** → This makes a personal copy of the project in your GitHub account.
+    *(Think of it like making your own notebook where you can write without changing the original one.)*
+5.  **Clone the repo** → Download your copy to your computer.
+    ```bash
+    git clone https://github.com/your-username/GITHUB-GITAM-OS-Practice-Repo.git
+    ```
+6.  **Install dependencies** → Some projects need extra software to run.
+    Usually, you’ll run:
+    ```bash
+    npm install   # if JavaScript/Node.js
+    pip install -r requirements.txt  # if Python
+    ```
+    HERE NOT NEED MOSTLY
 
-2. **Clone the repo** → Download your copy to your computer.
-
-   ```bash
-   git clone https://github.com/your-username/GITHUB-GITAM-OS-Practice-Repo.git
-   ```
-
-3. **Install dependencies** → Some projects need extra software to run.
-   Usually, you’ll run:
-
-   ```bash
-   npm install   # if JavaScript/Node.js
-   pip install -r requirements.txt  # if Python
-   ```
-
-   HERE NOT NEED MOSTLY
-
-   (Check the README for details.)
+    (Check the README for details.)
 
 ---
 
