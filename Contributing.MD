@@ -69,7 +69,7 @@ git checkout -b my-feature
 * If there are tests, run them:
 
   ```bash
-  npm test
+  // some test command if given
   ```
   EXAMPLE ONY, Check README.md for details
 * If not, just make sure your changes don’t break anything.
@@ -84,6 +84,40 @@ A **commit** is like saving a snapshot of your progress.
 git add .
 git commit -m "Fix typo in README"
 ```
+
+---
+
+### `git add .`
+
+* The `.` means **current directory and everything inside it**.
+* This will **stage all changes** (new files, modified files, deleted files) inside your project.
+* Useful when you want to commit *everything* you’ve changed.
+
+Be careful — it might also stage files you don’t want (like temporary logs or configs), so make sure your `.gitignore` is set properly.
+
+---
+
+### `git add <file_name>`
+
+* This stages **only that one file**.
+* You have control — nothing else will be staged.
+* Useful when you want to commit small, specific changes (best practice for clean commit history).
+
+Example:
+
+```bash
+git add index.py
+git add src/app.py
+```
+
+---
+
+Rule of thumb:
+
+* Use `git add <file>` for **focused commits**.
+* Use `git add .` when you’re confident all changes are ready to commit.
+
+---
 
 Write clear commit messages:
 
