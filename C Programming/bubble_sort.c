@@ -17,13 +17,18 @@ void bubbleSort(int arr[], int n) {
 
 int main() {
     int i;
-    int arr[] = {64, 34, 25, 12, 22, 11, 90}; //you can also opt for user input
-    int n = sizeof(arr)/sizeof(arr[0]);
-
+    int n;
+    printf("Enter size of array: ");
+    scanf("%d",&n);
+    int arr[n];
+    printf("Enter the array elements: ");
+    for(int j=0;j<n;j++)
+    {
+        scanf("%d",&arr[j]);
+    }
     printf("Original array: ");
     for (i = 0; i < n; i++)
         printf("%d ", arr[i]);
-
     bubbleSort(arr, n);
 
     printf("\nSorted array: ");
